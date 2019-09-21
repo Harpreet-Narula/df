@@ -123,21 +123,7 @@ print (Student1.first_name);
 
 
 
-#Name
-#Number
-#balance
-#limit
-
-#functions:
-#----------------
-#swipe(amount)
-#payBalance(amount)
-#setLlimit(newLimit)
-
-#getBalance()
-#getName()
-#getNumber()
-#getLimit()
+Credit Card
 
 class  CreditCard:
 
