@@ -1,0 +1,211 @@
+import random
+random_number = random.randint(1,101)
+print random_number
+
+user_number = raw_input("enter the number")
+print user_number
+
+
+
+
+
+import random
+random_number = random.randint(1,101)
+print ("random number is "+ str(random_number))
+
+user_number = int(input("enter the number:"))
+print user_number
+
+while random_number != user_number:
+    if (user_number < random_number):
+        print ("guess a bigger number")
+    if (user_number > random_number):
+        print ("guess a small  number")
+    user_number = int(input("enter the number:"))
+
+print("sucess")
+
+
+
+
+import random
+random_number = random.randint(1,101)
+print ("random number is "+ str(random_number))
+
+user_number = int(input("enter the number:"))
+print user_number
+number_of_trials = 1
+
+while random_number != user_number:
+    if (user_number < random_number):
+        print ("guess a bigger number")
+    if (user_number > random_number):
+        print ("guess a small  number")
+    number_of_trials += 1
+    user_number = int(input("enter the number:"))
+
+print("success!! no. of gusses=" + str(number_of_trials))
+
+
+HOMEWORK
+
+a = int(input("enter the number 1:"))
+print a
+b = int(input("enter the number 2:"))
+print b
+c = int(input("enter the number 3:"))
+print c
+
+
+if (a*a == b*b + c*c):
+    print ("a*a == b*b + c*c")
+if (b*b == a*a + c*c) :
+    print("b*b == a*a + c*c")
+if (c*c == b*b  + a*a):
+    print ("c*c == b*b  + a*a")
+if (a*a != b*b + c*c) and (b*b != a*a + c*c) and (c*c != b*b  + a*a):
+    print("Not possible")
+ 
+ 
+ 
+ 
+ 
+ 
+ #1 - Read three integers from user and print out the maximum of the three
+user_number1 = int(input("enter the number 1:"))
+print user_number1
+user_number2 = int(input("enter the number 2:"))
+print user_number2
+user_number3 = int(input("enter the number 3:"))
+print user_number3
+
+if user_number1 > user_number2:
+    max=user_number1
+if user_number2 > user_number3:
+    max= user_number2
+if user_number3 > user_number1:
+    max= user_number3
+print ("The greatest number is " + str(max))
+
+
+21 September 2019
+
+class student:
+
+    def __init__(self, first_name, last_name,student_id):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.student_id = student_id
+
+    def getBalance(selfself):
+        return 200
+
+    def getFullName(self):
+        return self.first_name + " " + self.last_name
+
+
+class cesatr_college:
+
+
+   def def__init__(self, address, manager):
+    self.address = address
+    self.manager = manager
+
+
+
+
+Student1 = student("mandeep","singh","12344")
+Student2 = student("Sukhamrit","singh","12345")
+
+print (Student1.first_name);
+
+
+
+
+
+#Name
+#Number
+#balance
+#limit
+
+#functions:
+#----------------
+#swipe(amount)
+#payBalance(amount)
+#setLlimit(newLimit)
+
+#getBalance()
+#getName()
+#getNumber()
+#getLimit()
+
+class  CreditCard:
+
+        def __init__(self, name, number, balance, limit):
+            self.name = name
+            self.number = number
+            self.balance = balance
+            self.limit = limit
+
+        def swipe(self, amount):
+            self.balance = self.balance + amount
+
+        def payBalance(self, amount):
+            self.balance = self.balance - amount
+
+        def setLimit(self, newLimit):
+            self.limit = newLimit
+
+        def getBalance(self):
+            return self.balance
+
+        def getName(self):
+            return self.name
+
+        def getNumber(self):
+            return self.number
+
+        def getLimit(self):
+            return self.limit
+
+
+
+
+class Student:
+
+    def __init__(self, first_name, last_name, student_id):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.student_id = student_id
+
+    def getBalance(self):
+        return 200
+
+    def getFullName(self):
+        return self.first_name + " " + self.last_name
+
+
+class CeStarCollege:
+
+    def __init__(self, address, manager):
+        self.address = address
+        self.manager = manager
+
+student1 = Student("Harpreet", "Narula", "1234")
+student2 = Student("Robinpreet", "Singh", "2344")
+
+print(student1.first_name)
+print (student2.student_id)
+
+print(student1.getFullName())
+print(student2.getBalance())
+
+card1 = CreditCard("Harpreet", "1111", 0, 10000)
+
+print(card1.getLimit())
+
+card1.swipe(2000)
+print("New balance: " + str(card1.getBalance()))
+
+card1.payBalance(100)
+print("New balance: " + str(card1.getBalance()))
