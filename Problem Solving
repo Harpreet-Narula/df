@@ -1,0 +1,70 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package classsss;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author 757695
+ */
+public class Classsss {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+           Scanner input = new Scanner (System.in);
+          
+           //Declare ItemName As String        
+          int DiscountRate;
+          // Declare DiscountRate As Integer 
+          int OriginalPrice;
+         // Declare OriginalPrice As Integer 
+        
+          int  AmountSaved; 
+          int  SalePrice;
+          float Tax;
+          int TotalPrice;
+          System.out.println("Please enter the ItemName = ");
+         
+          
+          // Pseudocode : Write "Please enter the OriginalPrice"
+          System.out.println("Please enter the OriginalPrice");
+          // input OriginalPrice
+          OriginalPrice = input.nextInt();
+          //Pseudocode : Write "Please enter the DiscountRate"
+          System.out.println("Please enter the DiscountRate");
+          // input DiscountRate
+          DiscountRate= input.nextInt(); 
+          //Set AmountSaved = OriginalPrice * DiscountRate/100
+          AmountSaved = OriginalPrice * DiscountRate/100;
+          //Write "AmountSaved of the product " + OriginalPrice + " * " + DiscountRate + " / 100 " 
+          System.out.println(" AmountSaved of the product = " + AmountSaved);
+         
+          //Set Saleprice =  OriginalPrice - AmountSaved
+          SalePrice = OriginalPrice - AmountSaved;
+          // Write "SalePrice of the product" + SalePrice
+          System.out.println("SalePrice of the product = " + SalePrice);
+          
+          //Set Tax =  SalePrice * 0.065
+           Tax =  (float) (SalePrice * 0.065);
+          // Write "Tax On The Product" + Tax
+          System.out.println( "Tax On The Product = " + Tax);
+           
+          //Set TotalPrice = Saleprice + Tax
+          TotalPrice = (int) (SalePrice + Tax);
+          // Write " TotalPrice of the product" + Totalprice
+           System.out.println(" TotalPrice of the product = " + TotalPrice);
+        // TODO code application logic here
+    
+  
+    
+    
+    
+    
+    
+    
