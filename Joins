@@ -1,0 +1,23 @@
+Go 
+select veggies.veggie_id , veggies.veggie_name, lots.lot_id, lots.lot_name, lots.veggie_id
+from veggies
+
+left JOIN lots
+ON lots.veggie_id = veggies.veggie_id
+order by veggies.veggie_id
+;
+
+
+
+
+
+
+
+Go 
+select veggies.veggie_id , veggies.veggie_name, lots.lot_id, lots.lot_name, lots.veggie_id
+from lots
+
+left JOIN veggies
+ON lots.veggie_id = veggies.veggie_id
+order by veggies.veggie_id
+;
