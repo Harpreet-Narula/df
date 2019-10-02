@@ -70,3 +70,77 @@ C0760945 Resume
     
   </tr>
 </table>
+
+
+
+
+
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+<style>
+.state {
+  background-color: white;
+  color: purple;
+  padding: 10px;
+}
+#capital {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+.state {
+  background-color: lightblue;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+}
+
+<a href="#C4">Skills</a>
+
+</style>
+
+th {
+  text-align: left;
+}
+body {
+  background-color: lightyellow;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+background-color: tomato;
+border-style; solid;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
+
+h4 {
+  color: red;
+  text-align: center;
+}
+h5 {
+  color: red;
+  text-align: center;
+}
+h6 {
+  color: brown;
+  text-align: center;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+#z{
+text-align: right;
+}
+
+
