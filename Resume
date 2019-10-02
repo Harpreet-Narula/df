@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+C0760945 Resume
+</title>
+<link rel="stylesheet" type="text/css" href="FINALRESUME.css">
+</head>
+<body>
+<h1>Harpreet Narula</h1>
+<p>194 burrows hall blvd((M1B1J1)<br>Phone: 4372237822                                                  Email:harrynarula8977@gmail.com</p>
+<h2>OBJECTIVE</h2>
+<p>I believe my fast learning abilities, commitment to succeed make me the perfect for this position.</p>
+<h3>Profile </h3>
+<p>
+<ul>
+<li>		Able to work as Team player	Good leadership and presentational skills</li>
+<li>		Handling Customer </li>
+<li>	Adaptable and willing to take on any job task</li>
+<li>	Ability to work efficiently for long hours, with good time management abilities to meet deadlines</li>
+<li>	Able to deal with occupied and quick paced work with no pressure</li>
+<li>	Excellent interpersonal and communication skills</li>
+</ul>
+</p>
+
+<h2> Contact Me </h2>
+<form action="/action_page.php">
+ First name:<br><br>
+  <input type="text" name="firstname" value="Harpreett">
+  <br><br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Narula">
+  <br><br>
+  E-Mail Id:<br>
+  <input type="text" name="E-Mail Id" value="harrynarula8977@gmail">
+  <br><br>
+  Phone Number:<br>
+  <input type="number" name="Phone Number" value="9845632155">
+  
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+
+<h4>SKILLS</h4>
+<table style="width:100%">
+  <tr background-color="grey">
+  
+    <th>Language</th>
+    <th>Software</th> 
+    <th>Tools</th>
+  </tr>
+  <tr>
+    <td align="center";>Java</td>
+    <td>Visual studio</td>
+    <td>JIRA</td>
+  </tr>
+  <tr>
+    <td>C++</td>
+    <td rowspan="2" valign="top"; align="center">Introduction to HTML 5 </td>
+    <td align="center">QC</td>
+  </tr>
+  <tr>
+    <td align="right">Javascript</td>
+    <td id="z">LR</td>
+	</tr>
+	<tr>
+	<td>  </td>
+	<td colspan="2" align="center">Cestar College of Technology</td
+    
+  </tr>
+</table>
